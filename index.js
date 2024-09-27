@@ -10,4 +10,18 @@ git diff
 git log
 git log --oneline
 git show 9e55530 
+
+REVERT BACK IN LATEST COMMIT ===>
+
+93253ac (HEAD -> master) im gonna delete this
+16ff1d9 some Comments Added
+9e55530 Another commit
+aa56fa1 intial commit
+
+=> git reset --hard 16ff1d9   [Id in which i want set head, then all commit after this id will gone]
+
+16ff1d9 (HEAD -> master) some Comments Added
+9e55530 Another commit
+aa56fa1 intial commit
+
 */
