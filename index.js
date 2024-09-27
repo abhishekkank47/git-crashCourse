@@ -11,7 +11,7 @@ git log
 git log --oneline
 git show 9e55530 
 
-REVERT BACK IN LATEST COMMIT ===>
+RESET BACK IN LATEST COMMIT ===>
 
 93253ac (HEAD -> master) im gonna delete this
 16ff1d9 some Comments Added
@@ -23,6 +23,12 @@ aa56fa1 intial commit
 16ff1d9 (HEAD -> master) some Comments Added
 9e55530 Another commit
 aa56fa1 intial commit
+
+REVERT BACK IN LATEST COMMIT ===>
+i wanted to remove this, But rest of commit will remain unchanged-->  9e55530 Another commit
+
+=> git revert 9e55530
+
 
 */
 console.log("ONE")
