@@ -29,6 +29,11 @@ i wanted to remove this, But rest of commit will remain unchanged-->  9e55530 An
 
 => git revert 9e55530
 
-
+BRANCHING
+git branch
+git branch "myNewBranch"  ====>     * master
+                                    myNewBranch
+git checkout myNewBranch  ====>     master
+                                    * myNewBranch
 */
 console.log("ONE")
