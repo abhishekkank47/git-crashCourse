@@ -36,4 +36,6 @@ git branch "myNewBranch"  ====>     * master
 git checkout myNewBranch  ====>     master
                                     * myNewBranch
 */
-console.log("ONE")
+const myNewBranch = ()=>{
+    console.log("new Feature Added")
+}
