@@ -1,6 +1,6 @@
 console.log("ONE")
 
-console.log("TWO")
+console.log(" ")
 
 /*
 git init
