@@ -1,0 +1,11 @@
+name: Test Self-Hosted Runner
+
+on:
+  workflow_dispatch:  # Enables manual trigger from GitHub UI
+
+jobs:
+  test-job:
+    runs-on: self-hosted
+    steps:
+      - name: Print hello from runner
+        run: echo "🎯 GitHub Runner is working"
